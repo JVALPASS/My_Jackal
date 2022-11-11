@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>qgis_ros</name>
+  <version>0.0.1</version>
+  <description>QGIS plugin for accessing real-time and bagged ROS data</description>
+
+  <maintainer email="ablakey@locusrobotics.com">Andrew Blakey</maintainer>
+  <license>Proprietary</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>json_transport</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>rospack</exec_depend>
+
+</package>
